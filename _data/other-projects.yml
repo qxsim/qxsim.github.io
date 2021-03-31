@@ -1,0 +1,21 @@
+- name: Twitter Sentiment Analysis
+  url: https://vixra.org/abs/2007.0033
+  code: https://github.com/qxsim/twitter-sentiment-analysis
+  description: Sentiment Analysis is one of the primary areas of natural language processing and information retrieval being tackled by researchers to date, and for good reason; the internet. The internet is a mostly untapped source of rich amounts of data that can be used to gauge the opinions of people, in reference to any number of topics. Twitter is one such platform designed for people to voice their opinions in the form of tweets about any topic they desire. My project will set out to investigate the best way to be able to analyse the sentiment of these aforementioned tweets using machine learning techniques. I will be training word vector-based, and paragraph vector-based models on a dataset consisting of 1.6 million tweets, in conjunction with various classifiers in order to find the best performing method in which to obtain the sentiment of tweets.
+  used:
+    - thing: Python
+    - thing: Keras
+    - thing: Gensim
+    - thing: NLTK
+    - thing: Pandas
+    - thing: NumPy
+    - thing: TensorFlow
+
+- name: QASEngine
+  url: https://github.com/qxsim/QASEngine
+  code: https://github.com/qxsim/QASEngine
+  description: I designed and built a fully-featured Game Rendering Engine from scratch using Java (JavaFX). It has been built to handle complex animations, collision detection and multiple on-screen animated sprites, reduce input lag, and do all of this while maintaining 60 frames-per-second. I designed and built this to learn more about how games work and I wanted to get as deep as I could into the details, so decided to build my own renderer from scratch using a powerful language I was comfortable with.
+  used:
+    - thing: Java
+    - thing: JavaFX
+    - thing: Eclipse

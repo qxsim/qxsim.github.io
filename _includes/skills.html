@@ -1,0 +1,40 @@
+<section class="section skills">
+  <div class="section__title">Skills</div>
+  <div class="section__content">
+    <p>If there's a skill you need for your project that's not on the list, let me know and it soon will be!</p>
+    <div class="skillz">
+      <div class="skillz__category">
+        <div class="skillz__category__label">Back-End</div>
+        <ul>
+          {% for back-end in site.data.skills.back-end %}
+          <li class="skillz__category__item">{{back-end.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="skillz__category">
+        <div class="skillz__category__label">Front-End</div>
+        <ul>
+          {% for front-end in site.data.skills.front-end %}
+          <li class="skillz__category__item">{{front-end.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="skillz__category">
+        <div class="skillz__category__label">Tools</div>
+        <ul>
+          {% for tool in site.data.skills.tools %}
+          <li class="skillz__category__item">{{tool.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="skillz__category">
+        <div class="skillz__category__label">Design</div>
+        <ul>
+          {% for thing in site.data.skills.design %}
+          <li class="skillz__category__item">{{thing.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

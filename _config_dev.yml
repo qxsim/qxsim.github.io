@@ -1,0 +1,39 @@
+# Site settings
+name: Qasim Nawaz
+title: Qasim Nawaz | Software Engineer
+description: Software Engineer, Tinkerer & Designer
+url: https://qxsim.github.io/
+baseurl: ''
+email: itsqasimnawaz@gmail.com
+cover: https://qxsim.github.io/img/og.png
+logo: https://qxsim.github.io/img/emojis/technologist.png
+resume: https://drive.google.com/file/d/1KGEzP4sFB1qCt2OEzwA15j1doxI__IPm/view
+social:
+  - title: email
+    url: mailto:itsqasimnawaz@gmail.com
+  - title: github
+    url: https://github.com/qxsim
+  - title: linkedin
+    url: https://www.linkedin.com/in/qnawaz
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

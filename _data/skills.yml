@@ -1,0 +1,26 @@
+back-end:
+  - item: Java
+  - item: Python
+  - item: PHP
+  - item: SQL
+
+front-end:
+  - item: JavaScript
+  - item: HTML/CSS
+  - item: React
+  - item: Wordpress
+
+tools:
+  - item: Bash/ZSH
+  - item: Git & GitHub/GitLab
+  - item: Chrome DevTools
+  - item: Postman
+  - item: UNIX (Mainly macOS)
+  - item: Docker
+  - item: AWS
+
+design:
+  - item: Figma
+  - item: Prototyping
+  - item: Wireframing
+  - item: User Testing
