@@ -1,9 +1,14 @@
+- company: Ministry of Justice
+  url: https://www.gov.uk/government/organisations/ministry-of-justice
+  time: Dec 2021 - Present
+  position: Software Developer
+
 - company: Magpie
-  url: https://www.magpiehq.com/
-  time: July 2020 - Present
+  url: https://www.magpiehq.com
+  time: July 2020 - Dec 2021
   position: Software Developer
 
 - company: Capgemini
-  url: https://www.capgemini.com/
-  time: July - Sept 2018
+  url: https://www.capgemini.com
+  time: July 2018 - Sept 2018
   position: Test Analyst
